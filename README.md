@@ -2,9 +2,9 @@
 
 The purpose of this repository is to provide a complete idea about the workshop on VLSI SoC/Physical design using open-source EDA Tools.The main target audience of the
 workshop is 
-1. Anyone who wants to learn SoC planning 
-2. Anyone who wants to learn chip design from specifications to Layout
-3. Anyone curious to know, what happens before Synthesis, Physical design and STA.
+1. one who wants to learn SoC planning 
+2. one who wants to learn chip design from specifications to Layout
+3. one who is curious to know, what happens before Synthesis, Physical design and STA.
 
 The open source tools that are involved in this workshop are as follows
 1. **Yosys** – for Synthesis
