@@ -24,3 +24,19 @@ The responsibilities of each individual day is listed below
 
 
 ## DAY1
+
+![](/IMAGES/DAY1/DAY-1%20THEORY/QFN48%20package/arduino.jpeg)
+
+![](/IMAGES/DAY1/DAY-1%20THEORY/QFN48%20package/processor_soc%20block.jpeg)
+
+![](/IMAGES/DAY1/DAY-1%20THEORY/QFN48%20package/QFN48.jpeg)
+
+![](/IMAGES/DAY1/DAY-1%20THEORY/QFN48%20package/QFN48WITHCHIP.jpeg)
+
+![](/IMAGES/DAY1/DAY-1%20THEORY/QFN48%20package/QFN48INTERNALBLOCKS.jpeg)
+
+![](/IMAGES/DAY1/DAY-1%20THEORY/QFN48%20package/QFN48overview.jpeg)
+
+![](/IMAGES/DAY1/DAY-1%20THEORY/QFN48%20package/QFN48blocksdescr.jpeg)
+
+
