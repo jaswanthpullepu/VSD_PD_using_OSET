@@ -25,6 +25,8 @@ The responsibilities of each individual day is listed below
 
 ## DAY1
 
+### Theory:
+
 ![](/IMAGES/DAY1/DAY-1%20THEORY/QFN48%20package/arduino.jpeg)
 
 ![](/IMAGES/DAY1/DAY-1%20THEORY/QFN48%20package/processor_soc%20block.jpeg)
