@@ -1,4 +1,4 @@
-#  pd_using_open_source_eda_tools
+#  VSD_PD_Using_OSET
 
 The purpose of this repository is to provide a complete idea about the workshop on VLSI SoC/Physical design using open-source EDA Tools.The main target audience of the
 workshop is 
