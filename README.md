@@ -43,23 +43,6 @@ The responsibilities of each individual day is listed below
 
 ![](/IMAGES/DAY1/DAY-1%20LAB/mcq5/git%20clone.jpeg)
 
-![](/IMAGES/DAY1/DAY-1%20LAB/mcq6/cntd.jpeg)
-
-
-![](/IMAGES/DAY1/DAY-1%20LAB/mcq6/cntd.jpeg)
-
-
-![](/IMAGES/DAY1/DAY-1%20LAB/mcq6/cntd.jpeg)
-
-
-![](/IMAGES/DAY1/DAY-1%20LAB/mcq6/cntd.jpeg)
-
-
-![](/IMAGES/DAY1/DAY-1%20LAB/mcq6/cntd.jpeg)
-
-
-![](/IMAGES/DAY1/DAY-1%20LAB/mcq6/cntd.jpeg)
-
 ![](/IMAGES/DAY1/DAY-1%20LAB/mcq6/command.jpeg)
 
 ![](/IMAGES/DAY1/DAY-1%20LAB/mcq7/command.jpeg)
