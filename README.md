@@ -27,19 +27,53 @@ The responsibilities of each individual day is listed below
 
 ### Theory:
 
-![](/IMAGES/DAY1/DAY-1%20THEORY/QFN48%20package/arduino.jpeg)
 
 ![](/IMAGES/DAY1/DAY-1%20THEORY/QFN48%20package/processor_soc%20block.jpeg)
 
-![](/IMAGES/DAY1/DAY-1%20THEORY/QFN48%20package/QFN48.jpeg)
 
-![](/IMAGES/DAY1/DAY-1%20THEORY/QFN48%20package/QFN48WITHCHIP.jpeg)
-
-![](/IMAGES/DAY1/DAY-1%20THEORY/QFN48%20package/QFN48INTERNALBLOCKS.jpeg)
-
-![](/IMAGES/DAY1/DAY-1%20THEORY/QFN48%20package/QFN48overview.jpeg)
 
 ![](/IMAGES/DAY1/DAY-1%20THEORY/QFN48%20package/QFN48blocksdescr.jpeg)
 
 
 ### Lab:
+
+![](/IMAGES/DAY1/DAY-1%20LAB/mcq3/yosys.jpeg)
+
+![](/IMAGES/DAY1/DAY-1%20LAB/mcq4/sta%20command%20loc.jpeg)
+
+![](/IMAGES/DAY1/DAY-1%20LAB/mcq5/git%20clone.jpeg)
+
+![](/IMAGES/DAY1/DAY-1%20LAB/mcq6/cntd.jpeg)
+
+
+![](/IMAGES/DAY1/DAY-1%20LAB/mcq6/cntd.jpeg)
+
+
+![](/IMAGES/DAY1/DAY-1%20LAB/mcq6/cntd.jpeg)
+
+
+![](/IMAGES/DAY1/DAY-1%20LAB/mcq6/cntd.jpeg)
+
+
+![](/IMAGES/DAY1/DAY-1%20LAB/mcq6/cntd.jpeg)
+
+
+![](/IMAGES/DAY1/DAY-1%20LAB/mcq6/cntd.jpeg)
+
+![](/IMAGES/DAY1/DAY-1%20LAB/mcq6/command.jpeg)
+
+![](/IMAGES/DAY1/DAY-1%20LAB/mcq7/command.jpeg)
+
+![](/IMAGES/DAY1/DAY-1%20LAB/mcq7/layout.jpeg)
+
+![](/IMAGES/DAY1/DAY-1%20LAB/mcq7/tkcon.jpeg)
+
+![](/IMAGES/DAY1/DAY-1%20LAB/mcq8/command.jpeg)
+
+![](/IMAGES/DAY1/DAY-1%20LAB/mcq8/percentage%20ratio%20flipflopby%20tot.jpeg.jpeg)
+
+![](/IMAGES/DAY1/DAY-1%20LAB/mcq8/qflow%20manager.jpeg)
+
+![](/IMAGES/DAY1/DAY-1%20LAB/mcq8/qflow%20synthesis%20preparation.jpeg)
+
+![](/IMAGES/DAY1/DAY-1%20LAB/mcq8/qflowtextreport.jpeg)
