@@ -42,3 +42,4 @@ The responsibilities of each individual day is listed below
 ![](/IMAGES/DAY1/DAY-1%20THEORY/QFN48%20package/QFN48blocksdescr.jpeg)
 
 
+### Lab:
