@@ -83,24 +83,24 @@ The responsibilities of each individual day is listed below
  The day two responsibilities are to learn about
 
 <ol>
-   1.1.  Utilization factor and Aspect Ratio
-   1.2.  Concept of preplaced cells 
-   1.3.  De coupling capacitors
-   1.4.  Power planning
-   1.5.  Pin placement and logical cell placement blockage
-   1.6.  Pin arrangement UI and automatic grouping of vectors
-   1.7.  Tips on pin placement and floorplanning chip
-   1.8.  Floorplanning labs
-   2.1.  Netlist binding and initial place design
-   2.2.  Optimize placement using estimated wire length and capacitance
-   2.3.  Final placement optimization
-   2.4.  Need for libraries and characterization
-   3.1.  Inputs for cell dessign flow
-   3.2.  Circuit design step
-   3.3.  Layout design step
-   3.4.  Typical characterization flow
-   4.1.  Timing threshold definitions
-   4.2.  Propogation delay and transition time
+   <li>  Utilization factor and Aspect Ratio </li>
+   <li>  Concept of preplaced cells </li>
+   <li>  De coupling capacitors</li>
+   <li>  Power planning</li>
+   <li>  Pin placement and logical cell placement blockage</li>
+   <li>  Pin arrangement UI and automatic grouping of vectors</li>
+   <li>  Tips on pin placement and floorplanning chip</li>
+   <li>  Floorplanning labs</li>
+   <li>  Netlist binding and initial place design</li>
+   <li>  Optimize placement using estimated wire length and capacitance</li>
+   <li>  Final placement optimization</li>
+   <li>  Need for libraries and characterization</li>
+   <li>  Inputs for cell dessign flow</li>
+   <li>  Circuit design step</li>
+   <li>  Layout design step</li>
+   <li>  Typical characterization flow</li>
+   <li>  Timing threshold definitions</li>
+   <li>  Propogation delay and transition time</li>
   </ol>
   
 ### Lab:
@@ -113,27 +113,28 @@ The responsibilities of each individual day is listed below
 
  The day three responsibilities are to learn about
  
- 1.1.  SPICE deck creation for CMOS inverter
- 1.2.  SPICE simulation lab for CMOS inverter
- 1.3.  Switching Threshold Vm
- 1.4.  Static and dynamic simulation of CMOS inverter
- 2.1.  Prelayout simulation of a test circuit
- 2.2.  Layout using only stick diagram
- 2.3.  Eulers path for Fn Input gate reordering
- 2.4.  Improved stick diagram for new gate input ordering
- 2.5.  Abstract layout from stick diagram
- 3.1.  Device actual dimension for Fn
- 3.2.  Script to create layout in Magic
- 3.3.  Final layout and input/output labelling
- 3.4.  Post layout ngspice simulation
- 4.1.  Create active regions
- 4.2.  Formation of N well and P well
- 4.3.  Formation of gate terminal
- 4.4.  Lightly doped drain (LDD) formation
- 4.5.  Source drain formation
- 4.6.  Local interconnect formation
- 4.7.  Higher level metal formation
- 
+ <ol>
+ <li>  SPICE deck creation for CMOS inverter</li>
+ <li>  SPICE simulation lab for CMOS inverter</li>
+ <li>  Switching Threshold Vm</li>
+ <li>  Static and dynamic simulation of CMOS inverter</li>
+ <li>  Prelayout simulation of a test circuit</li>
+ <li>  Layout using only stick diagram</li>
+ <li>  Eulers path for Fn Input gate reordering</li>
+ <li>  Improved stick diagram for new gate input ordering</li>
+ <li>  Abstract layout from stick diagram</li>
+ <li>  Device actual dimension for Fn</li>
+ <li>  Script to create layout in Magic</li>
+ <li>  Final layout and input/output labelling</li>
+ <li>  Post layout ngspice simulation</li>
+ <li>  Create active regions</li>
+ <li>  Formation of N well and P well</li>
+ <li>  Formation of gate terminal</li>
+ <li>  Lightly doped drain (LDD) formation</li>
+ <li>  Source drain formation</li>
+ <li>  Local interconnect formation</li>
+ <li>  Higher level metal formation</li>
+ </ol>
 
 
 ### Lab:
@@ -146,16 +147,17 @@ The responsibilities of each individual day is listed below
 
  The day four responsibilities are to learn about
  
- 1.1.  Introduction to delay tables
- 1.2.  Delay table usage Part 1
- 1.3.  Delay table usage Part 2
- 2.1.  Setup timing analysis and introduction to flipflop setup time
- 2.2.  Introduction to clock jitter and uncertainity
- 3.1.  Clock tree routing and buffering using H tree algorithm
- 3.2.  Crosstalk and clock net shielding
- 4.1.  Setup timing analysis using real clocks
- 4.2.  Hold timing analysis using real clocks
- 
+ <ol>
+ <li>  Introduction to delay tables</li>
+ <li>  Delay table usage Part 1</li>
+ <li>  Delay table usage Part 2</li>
+ <li>  Setup timing analysis and introduction to flipflop setup time</li>
+ <li>  Introduction to clock jitter and uncertainity</li>
+ <li>  Clock tree routing and buffering using H tree algorithm</li>
+ <li>  Crosstalk and clock net shielding</li>
+ <li>  Setup timing analysis using real clocks</li>
+ <li>  Hold timing analysis using real clocks</li>
+ </ol>
  
 
 ### Lab:
