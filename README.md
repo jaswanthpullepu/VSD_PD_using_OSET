@@ -82,9 +82,10 @@ The responsibilities of each individual day is listed below
 
  The day two responsibilities are to learn about
 
-   1.1.  Utilization factor and Aspect Ratio
-   1.2.  Concept of preplaced cells 
-   1.3.  De coupling capacitors
+<ol>
+   <li>1.1.  Utilization factor and Aspect Ratio
+   <li>1.2.  Concept of preplaced cells 
+   <li>1.3.  De coupling capacitors
    1.4.  Power planning
    1.5.  Pin placement and logical cell placement blockage
    1.6.  Pin arrangement UI and automatic grouping of vectors
@@ -100,8 +101,8 @@ The responsibilities of each individual day is listed below
    3.4.  Typical characterization flow
    4.1.  Timing threshold definitions
    4.2.  Propogation delay and transition time
-   
-   
+  </li>
+   </ol>
 ### Lab:
 
 
