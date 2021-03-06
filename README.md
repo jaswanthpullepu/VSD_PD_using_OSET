@@ -28,15 +28,15 @@ The responsibilities of each individual day is listed below
 ### Theory:
  The day one responsibilities are to learn about
  <ol>
- 1.  Introduction to QFN-48 package,chip,pads,die,core,IPs
- 2.1.  Introduction to RISC V
- 2.2.  From software application to hardware
- 3.1.  Pre requesities and RISC V,PICORV32 AND picosoc view
- 3.2.  Raven Soc and full chip review
- 4.1.  Introduction to IC design components and open source EDA tools
- 4.2.  Steps to start synthesizing picorv32, report ratio
- 4.3.  Test open source EDA tools using sample design and VSD flow utility
- 4.4.  Steps to perform labs on platform
+ <li> Introduction to QFN-48 package,chip,pads,die,core,IPs </li>
+ <li> Introduction to RISC V </li>
+ <li> From software application to hardware </li>
+ <li> Pre requesities and RISC V,PICORV32 AND picosoc view </li>
+ <li> Raven Soc and full chip review </li>
+ <li> Introduction to IC design components and open source EDA tools </li>
+ <li> Steps to start synthesizing picorv32, report ratio </li>
+ <li> Test open source EDA tools using sample design and VSD flow utility </li>
+ <li> Steps to perform labs on platform </li>
  </ol>
 
 
