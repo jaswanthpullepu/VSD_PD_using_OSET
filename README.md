@@ -28,15 +28,15 @@ The responsibilities of each individual day is listed below
 ### Theory:
  The day one responsibilities are to learn about
  
- 1. Introduction to QFN-48 package,chip,pads,die,core,IPs
- 2.1. Introduction to RISC V
- 2.2. From software application to hardware
- 3.1. Pre requesities and RISC V,PICORV32 AND picosoc view
- 3.2. Raven Soc and full chip review
- 4.1. Introduction to IC design components and open source EDA tools
- 4.2. Steps to start synthesizing picorv32, report ratio
- 4.3. Test open source EDA tools using sample design and VSD flow utility
- 4.4. Steps to perform labs on platform
+ 1.  Introduction to QFN-48 package,chip,pads,die,core,IPs
+ 2.1.  Introduction to RISC V
+ 2.2.  From software application to hardware
+ 3.1.  Pre requesities and RISC V,PICORV32 AND picosoc view
+ 3.2.  Raven Soc and full chip review
+ 4.1.  Introduction to IC design components and open source EDA tools
+ 4.2.  Steps to start synthesizing picorv32, report ratio
+ 4.3.  Test open source EDA tools using sample design and VSD flow utility
+ 4.4.  Steps to perform labs on platform
 
 
 
@@ -82,24 +82,24 @@ The responsibilities of each individual day is listed below
 
  The day two responsibilities are to learn about
 
-   1.1. Utilization factor and Aspect Ratio
-   1.2. Concept of preplaced cells 
-   1.3. De coupling capacitors
-   1.4. Power planning
-   1.5. Pin placement and logical cell placement blockage
-   1.6. Pin arrangement UI and automatic grouping of vectors
-   1.7. Tips on pin placement and floorplanning chip
-   1.8. Floorplanning labs
-   2.1. Netlist binding and initial place design
-   2.2. Optimize placement using estimated wire length and capacitance
-   2.3. Final placement optimization
-   2.4. Need for libraries and characterization
-   3.1. Inputs for cell dessign flow
-   3.2. Circuit design step
-   3.3. Layout design step
-   3.4. Typical characterization flow
-   4.1. Timing threshold definitions
-   4.2. Propogation delay and transition time
+   1.1.  Utilization factor and Aspect Ratio
+   1.2.  Concept of preplaced cells 
+   1.3.  De coupling capacitors
+   1.4.  Power planning
+   1.5.  Pin placement and logical cell placement blockage
+   1.6.  Pin arrangement UI and automatic grouping of vectors
+   1.7.  Tips on pin placement and floorplanning chip
+   1.8.  Floorplanning labs
+   2.1.  Netlist binding and initial place design
+   2.2.  Optimize placement using estimated wire length and capacitance
+   2.3.  Final placement optimization
+   2.4.  Need for libraries and characterization
+   3.1.  Inputs for cell dessign flow
+   3.2.  Circuit design step
+   3.3.  Layout design step
+   3.4.  Typical characterization flow
+   4.1.  Timing threshold definitions
+   4.2.  Propogation delay and transition time
    
    
 ### Lab:
@@ -112,26 +112,26 @@ The responsibilities of each individual day is listed below
 
  The day three responsibilities are to learn about
  
- 1.1. SPICE deck creation for CMOS inverter
- 1.2. SPICE simulation lab for CMOS inverter
- 1.3. Switching Threshold Vm
- 1.4. Static and dynamic simulation of CMOS inverter
- 2.1. Prelayout simulation of a test circuit
- 2.2. Layout using only stick diagram
- 2.3. Eulers path for Fn Input gate reordering
- 2.4. Improved stick diagram for new gate input ordering
- 2.5. Abstract layout from stick diagram
- 3.1. Device actual dimension for Fn
- 3.2. Script to create layout in Magic
- 3.3. Final layout and input/output labelling
- 3.4. Post layout ngspice simulation
- 4.1. Create active regions
- 4.2. Formation of N well and P well
- 4.3. Formation of gate terminal
- 4.4. Lightly doped drain (LDD) formation
- 4.5. Source drain formation
- 4.6. Local interconnect formation
- 4.7. Higher level metal formation
+ 1.1.  SPICE deck creation for CMOS inverter
+ 1.2.  SPICE simulation lab for CMOS inverter
+ 1.3.  Switching Threshold Vm
+ 1.4.  Static and dynamic simulation of CMOS inverter
+ 2.1.  Prelayout simulation of a test circuit
+ 2.2.  Layout using only stick diagram
+ 2.3.  Eulers path for Fn Input gate reordering
+ 2.4.  Improved stick diagram for new gate input ordering
+ 2.5.  Abstract layout from stick diagram
+ 3.1.  Device actual dimension for Fn
+ 3.2.  Script to create layout in Magic
+ 3.3.  Final layout and input/output labelling
+ 3.4.  Post layout ngspice simulation
+ 4.1.  Create active regions
+ 4.2.  Formation of N well and P well
+ 4.3.  Formation of gate terminal
+ 4.4.  Lightly doped drain (LDD) formation
+ 4.5.  Source drain formation
+ 4.6.  Local interconnect formation
+ 4.7.  Higher level metal formation
  
 
 
@@ -145,15 +145,15 @@ The responsibilities of each individual day is listed below
 
  The day four responsibilities are to learn about
  
- 1.1. Introduction to delay tables
- 1.2. Delay table usage Part 1
- 1.3. Delay table usage Part 2
- 2.1. Setup timing analysis and introduction to flipflop setup time
- 2.2. Introduction to clock jitter and uncertainity
- 3.1. Clock tree routing and buffering using H tree algorithm
- 3.2. Crosstalk and clock net shielding
- 4.1. Setup timing analysis using real clocks
- 4.2. Hold timing analysis using real clocks
+ 1.1.  Introduction to delay tables
+ 1.2.  Delay table usage Part 1
+ 1.3.  Delay table usage Part 2
+ 2.1.  Setup timing analysis and introduction to flipflop setup time
+ 2.2.  Introduction to clock jitter and uncertainity
+ 3.1.  Clock tree routing and buffering using H tree algorithm
+ 3.2.  Crosstalk and clock net shielding
+ 4.1.  Setup timing analysis using real clocks
+ 4.2.  Hold timing analysis using real clocks
  
  
 
