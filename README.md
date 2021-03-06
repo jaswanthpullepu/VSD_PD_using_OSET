@@ -27,7 +27,7 @@ The responsibilities of each individual day is listed below
 
 ### Theory:
  The day one responsibilities are to learn about
- 
+ <ol>
  1.  Introduction to QFN-48 package,chip,pads,die,core,IPs
  2.1.  Introduction to RISC V
  2.2.  From software application to hardware
@@ -37,7 +37,7 @@ The responsibilities of each individual day is listed below
  4.2.  Steps to start synthesizing picorv32, report ratio
  4.3.  Test open source EDA tools using sample design and VSD flow utility
  4.4.  Steps to perform labs on platform
-
+ </ol>
 
 
 
