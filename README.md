@@ -229,3 +229,7 @@ The responsibilities of each individual day is listed below
 </ol>
 
 ### Lab:
+
+![](/IMAGES/DAY5/DAY-5%20LAB/d5sk2-mcq1contd.JPG)
+![](/IMAGES/DAY5/DAY-5%20LAB/d5sk2-mcq1.JPG)
+![](/IMAGES/DAY5/DAY-5%20LAB/d5sk2-mcq2.JPG)
