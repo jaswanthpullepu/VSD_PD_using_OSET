@@ -108,7 +108,14 @@ The responsibilities of each individual day is listed below
   
 ### Lab:
 
-
+![](/IMAGES/DAY2/DAY-2%20LAB/MCQ5/layout%20command.jpeg)
+![](/IMAGES/DAY2/DAY-2%20LAB/MCQ5/layoutarea.jpeg)
+![](/IMAGES/DAY2/DAY-2%20LAB/MCQ5/layoutwindow.jpeg)
+![](IMAGES/DAY2/DAY-2%20LAB/PLACEMENT/ARRANGE%20PIN.jpeg)
+![](/IMAGES/DAY2/DAY-2%20LAB/PLACEMENT/PLACEMENT%20SETTINGS.jpeg)
+![](/IMAGES/DAY2/DAY-2%20LAB/PLACEMENT/PLACEMENTITERATION1.jpeg)
+![](/IMAGES/DAY2/DAY-2%20LAB/PLACEMENT/PLCMNTITR3.jpeg)
+![](/IMAGES/DAY2/DAY-2%20LAB/PLACEMENT/PLCMNTITR6.jpeg)
 
 ### DAY_3
 
@@ -179,5 +186,17 @@ The responsibilities of each individual day is listed below
 
  The day five responsibilities are to learn about
 
+<ol>
+<li>Introduction to Maze routing-Lees's ALgorithm</li>
+<li>Lee's Algorithm conclusion</li>
+<li>Design rule check</li>
+<li>Introduction to IEEE 1481-1999 SPEF fomat</li>
+<li>SPEF representation of a NET</li>
+<li>Distributed resistance and capacitance representation in SPEF</li>
+<li>SPEF header description</li>
+<li>Few tips on pin placement and floorplanning chip</li>
+<li>Placement and pre layout STA</li>
+<li>Routing and post-route STA</li>
+</ol>
 
 ### Lab:
