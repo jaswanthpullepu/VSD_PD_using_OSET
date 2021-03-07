@@ -24,6 +24,7 @@ The responsibilities of each individual day is listed below
 
 
 ## DAY1
+**Study and review of various components in  RISC V based picoSoC**
 
 ### Theory:
  The day one responsibilities are to learn about
@@ -78,6 +79,8 @@ The responsibilities of each individual day is listed below
 
 ### DAY_2
 
+**Chip planning strategies and introduction to foundry library cells**
+
 ### Theory:
 
  The day two responsibilities are to learn about
@@ -108,6 +111,8 @@ The responsibilities of each individual day is listed below
 
 
 ### DAY_3
+
+**Design and characterize one library cell using Magic layout tool and ngspice**
 
 ### Theory:
 
@@ -143,6 +148,8 @@ The responsibilities of each individual day is listed below
 
 ### DAY_4
 
+**Pre-layout timing analysis and importance of good clock tree**
+
 ### Theory:
 
  The day four responsibilities are to learn about
@@ -165,6 +172,8 @@ The responsibilities of each individual day is listed below
 
 
 ### DAY_5
+
+**Final steps for RTL2GDS**
 
 ### Theory:
 
