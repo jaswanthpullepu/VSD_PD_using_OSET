@@ -151,7 +151,21 @@ The responsibilities of each individual day is listed below
 
 ### Lab:
 
-
+![](/IMAGES/DAY3/DAY-3%20LAB/d3sk1-mcq10.jpeg)
+![](/IMAGES/DAY3/DAY-3%20LAB/d3sk1-mcq10contd.jpeg)
+![](/IMAGES/DAY3/DAY-3%20LAB/d3sk1-mcq11.png)
+![](/IMAGES/DAY3/DAY-3%20LAB/d3sk1-mcq5.jpeg)
+![](/IMAGES/DAY3/DAY-3%20LAB/d3sk1-mcq5contd.jpeg)
+![](/IMAGES/DAY3/DAY-3%20LAB/d3sk1-mcq8.jpeg)
+![](/IMAGES/DAY3/DAY-3%20LAB/d3sk2-mcq1.jpeg)
+![](/IMAGES/DAY3/DAY-3%20LAB/d3sk2-mcq2.jpeg)
+![](/IMAGES/DAY3/DAY-3%20LAB/d3sk3-mcq3.jpeg)
+![](/IMAGES/DAY3/DAY-3%20LAB/d3sk3-mcq3contd.jpeg)
+![](/IMAGES/DAY3/DAY-3%20LAB/d3sk3-mcq4.jpeg)
+![](/IMAGES/DAY3/DAY-3%20LAB/d3sk3-mcq5.jpeg)
+![](/IMAGES/DAY3/DAY-3%20LAB/d3sk3-mcq5contd.jpeg)
+![](/IMAGES/DAY3/DAY-3%20LAB/d3sk3-mcq5contd2.jpeg)
+![](/IMAGES/DAY3/DAY-3%20LAB/d3sk3-mcq5contd3.jpeg)
 
 ### DAY_4
 
@@ -175,7 +189,22 @@ The responsibilities of each individual day is listed below
  
 
 ### Lab:
-
+![](/IMAGES/DAY4/DAY-4%20LAB/d4sk1-mcq6.JPG)
+![](/IMAGES/DAY4/DAY-4%20LAB/d4sk1-mcq7.JPG)
+![](/IMAGES/DAY4/DAY-4%20LAB/d4sk1-mcq7contd.JPG)
+![](/IMAGES/DAY4/DAY-4%20LAB/d4sk1-mcq8.JPG)
+![](/IMAGES/DAY4/DAY-4%20LAB/d4sk1-mcq8contd.JPG)
+![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq10.JPG)
+![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq11.JPG)
+![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq11conf.JPG)
+![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq11sdc.JPG)
+![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq12.JPG)
+![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq121.JPG)
+![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq6.JPG)
+![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq8.JPG)
+![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq9.JPG)
+![](/IMAGES/DAY4/DAY-4%20LAB/d4sk4-mcq2.JPG)
+![](/IMAGES/DAY4/DAY-4%20LAB/d4sk4-mcq5.JPG)
 
 
 ### DAY_5
