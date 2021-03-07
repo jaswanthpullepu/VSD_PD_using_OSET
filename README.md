@@ -41,30 +41,37 @@ The responsibilities of each individual day is listed below
  </ol>
 
 
-
-
-![](/IMAGES/DAY1/DAY-1%20THEORY/QFN48%20package/processor_soc%20block.jpeg)
-
-
-
-![](/IMAGES/DAY1/DAY-1%20THEORY/QFN48%20package/QFN48blocksdescr.jpeg)
-
-
 ### Lab:
+
+>This specifies the synthesis command which uses the yosys to open the yosys terminal and how it gets opened and how it displays after the command was typed in terminal.it shows as **>yosys**
 
 ![](/IMAGES/DAY1/DAY-1%20LAB/mcq3/yosys.jpeg)
 
+>This specifies the command **which sta** when typed in terminal it shows the location of sta ie.,where it is present that is in the usr folder to bin sub folder and there sta is present
+
 ![](/IMAGES/DAY1/DAY-1%20LAB/mcq4/sta%20command%20loc.jpeg)
+
+>This command **git clone** mainly used for cloning the vsd flow which is taken from [kunal ghosh git hub](https://github.com/kunalg123/vsdflow) and from there the tools were imported
 
 ![](/IMAGES/DAY1/DAY-1%20LAB/mcq5/git%20clone.jpeg)
 
+>This command **./vsdflow spi_slave_design_details.csv** is to initialize the design and the ls-ltr outdir_spi_slave |wc will specify the number of files
+
 ![](/IMAGES/DAY1/DAY-1%20LAB/mcq6/command.jpeg)
+
+>There is a change in the directory and it is changed to **outdir_spi_slave** and qflow command is typed in ordere to display the spi_slave layout view
 
 ![](/IMAGES/DAY1/DAY-1%20LAB/mcq7/command.jpeg)
 
+>This is the layou view of the spi_slave
+
 ![](/IMAGES/DAY1/DAY-1%20LAB/mcq7/layout.jpeg)
 
+>This is the tkcon window in which the commands were typed in which **box** is typed in order to view the dimensions of the layout.Here the area is specified
+
 ![](/IMAGES/DAY1/DAY-1%20LAB/mcq7/tkcon.jpeg)
+
+>These below figures specifies the **percentage ratio of flipflop to total logic**.For that to be known we should go to terminal and change the directory to **vsdflow**.make a directory **my_picorv32**.make three directories ie., source,synthesis,layout.In which the actual verilog source file **picorv32.v** is copied into source folder.Qflow is opened on the gui platform and the synthesis is done and report of the synthesis is taken.
 
 ![](/IMAGES/DAY1/DAY-1%20LAB/mcq8/command.jpeg)
 
@@ -108,11 +115,20 @@ The responsibilities of each individual day is listed below
   
 ### Lab:
 
+>First we have to change the directory to vsdflow and then change the directory to pul_picorv32(which is our created directory it can be of any name).Then we should type the **qflow display picorv32** so that two windows will popup that is **layout** and **tkcon**.In tkcon we should type **box** so that length and width of the layout is obtained and from that we can calculate the area.
+
 ![](/IMAGES/DAY2/DAY-2%20LAB/MCQ5/layout%20command.jpeg)
 ![](/IMAGES/DAY2/DAY-2%20LAB/MCQ5/layoutarea.jpeg)
 ![](/IMAGES/DAY2/DAY-2%20LAB/MCQ5/layoutwindow.jpeg)
+
+>The below figures are the **pinplacement** procedure that we follow.As the qflow is opened we will synthesis the design and in the placement settings we should click on the **arrange pins** option and there **reset,clk** pins must be grouped by newgroup by naming it.After that the iterations of standard cell and pins are taken place. 
+
 ![](IMAGES/DAY2/DAY-2%20LAB/PLACEMENT/ARRANGE%20PIN.jpeg)
 ![](/IMAGES/DAY2/DAY-2%20LAB/PLACEMENT/PLACEMENT%20SETTINGS.jpeg)
+
+>These are the different iterations that are happened in the placement stage based on some algorithms and nearest pin specified in the option.
+
+
 ![](/IMAGES/DAY2/DAY-2%20LAB/PLACEMENT/PLACEMENTITERATION1.jpeg)
 ![](/IMAGES/DAY2/DAY-2%20LAB/PLACEMENT/PLCMNTITR3.jpeg)
 ![](/IMAGES/DAY2/DAY-2%20LAB/PLACEMENT/PLCMNTITR6.jpeg)
@@ -151,17 +167,27 @@ The responsibilities of each individual day is listed below
 
 ### Lab:
 
+>
+
 ![](/IMAGES/DAY3/DAY-3%20LAB/d3sk1-mcq10.jpeg)
 ![](/IMAGES/DAY3/DAY-3%20LAB/d3sk1-mcq10contd.jpeg)
+
 ![](/IMAGES/DAY3/DAY-3%20LAB/d3sk1-mcq11.png)
+
 ![](/IMAGES/DAY3/DAY-3%20LAB/d3sk1-mcq5.jpeg)
 ![](/IMAGES/DAY3/DAY-3%20LAB/d3sk1-mcq5contd.jpeg)
+
 ![](/IMAGES/DAY3/DAY-3%20LAB/d3sk1-mcq8.jpeg)
+
 ![](/IMAGES/DAY3/DAY-3%20LAB/d3sk2-mcq1.jpeg)
+
 ![](/IMAGES/DAY3/DAY-3%20LAB/d3sk2-mcq2.jpeg)
+
 ![](/IMAGES/DAY3/DAY-3%20LAB/d3sk3-mcq3.jpeg)
 ![](/IMAGES/DAY3/DAY-3%20LAB/d3sk3-mcq3contd.jpeg)
+
 ![](/IMAGES/DAY3/DAY-3%20LAB/d3sk3-mcq4.jpeg)
+
 ![](/IMAGES/DAY3/DAY-3%20LAB/d3sk3-mcq5.jpeg)
 ![](/IMAGES/DAY3/DAY-3%20LAB/d3sk3-mcq5contd.jpeg)
 ![](/IMAGES/DAY3/DAY-3%20LAB/d3sk3-mcq5contd2.jpeg)
@@ -190,20 +216,31 @@ The responsibilities of each individual day is listed below
 
 ### Lab:
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk1-mcq6.JPG)
+
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk1-mcq7.JPG)
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk1-mcq7contd.JPG)
+
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk1-mcq8.JPG)
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk1-mcq8contd.JPG)
+
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq10.JPG)
+
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq11.JPG)
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq11conf.JPG)
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq11sdc.JPG)
+
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq12.JPG)
+
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq121.JPG)
+
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq6.JPG)
+
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq8.JPG)
+
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq9.JPG)
+
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk4-mcq2.JPG)
+
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk4-mcq5.JPG)
 
 
@@ -230,6 +267,8 @@ The responsibilities of each individual day is listed below
 
 ### Lab:
 
+
 ![](/IMAGES/DAY5/DAY-5%20LAB/d5sk2-mcq1contd.JPG)
 ![](/IMAGES/DAY5/DAY-5%20LAB/d5sk2-mcq1.JPG)
+
 ![](/IMAGES/DAY5/DAY-5%20LAB/d5sk2-mcq2.JPG)
