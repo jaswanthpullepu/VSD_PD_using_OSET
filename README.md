@@ -168,76 +168,44 @@ The responsibilities of each individual day is listed below
 
 ### Lab:
 
->d3sk1-mccq5
-git clone https://github.com/kunalg123/ngspice_labs.git
-cd ngspice_labs
-cat inv.spice
-width of pmos?
+>Here in this command the [ngspice_labs](https://github.com/kunalg123/ngspice_labs) are cloned inorder to use the spice labs.After cloning the directory is changed to ngspice_labs.Then inv.spice file is opened using **cat** command in order to view **width of pmos,nmos and wp/wn ratio** 
 
 ![](/IMAGES/DAY3/DAY-3%20LAB/d3sk1-mcq5.jpeg)
-![](/IMAGES/DAY3/DAY-3%20LAB/d3sk1-mcq5contd.jpeg)
 
->d3sk1-mcq8
-ngspice inv.spice
-ngspice 1>
-run
-setplot dc1
-plot out in
-click on intersection of blue line?
-what is x0 value?
+>This imaage specifies the ngspice **dc simulation** of the inv.spice file.To run the simulation we use **ngspice** tool.For that we use the command **ngspice inv.spice**,Then after run,setting plot to dc.A graph will appear where we can see the transfer characterstics of dc simulate
 
 ![](/IMAGES/DAY3/DAY-3%20LAB/d3sk1-mcq8.jpeg)
 
->d3sk1-mcq10
-leafpad inv.spice
-change width of pmos to 0.75u
-where does the switching threshold lies in between?
+>By using the **leafpad** command we changed the width of pmos to 0.75u.Then performed the dc simulation in the spice labs.plotted the transfer charcterstics of the circuit.There is change in the switching threshold that can be observed in the graph.By clicking on the blue intersection line a change of x0 will be appeared compared to when width of pmos is 0.5u. 
 
+
+![](/IMAGES/DAY3/DAY-3%20LAB/d3sk1-mcq5contd.jpeg)
 ![](/IMAGES/DAY3/DAY-3%20LAB/d3sk1-mcq10contd.jpeg)
 ![](/IMAGES/DAY3/DAY-3%20LAB/d3sk1-mcq10.jpeg)
 
->d3sk1-mcq11
-leafpad inv_tran.spice
-run the simulation
-rise delay?
+>Here to calculate the **risedelay** we should take the transfer charcterstics of the inverter with pulse input which has a timeperiod.Firstly the ngspice tool is opened with **inv_tran.spice** file then the simulation is runned.setting the plot to **transient analysis** and plot the transfer characterstics a waveform is appeared.Rise delay is calculated by taking the 20% and 80% of rising wavefrom and calculating there difference. 
 
 ![](/IMAGES/DAY3/DAY-3%20LAB/d3sk1-mcq11.png)
 
->d3sk2-mcq1
-ngspice fn_prelayout.spice
-run
-setplot tran1
-plot out 1.25
-value of x0 at intersection horizontal blue line and rising waveform?
+>pre layout file is to be simulated in the ngspice and see its transient analysis.use the command  **ngspice fn_prelayout.spice**.run the simulation set the plot to transient analysis and plot the output graph at 1.25 as refrence we should calculate the value of x0 intersection of the rising waveform. 
 
 ![](/IMAGES/DAY3/DAY-3%20LAB/d3sk2-mcq1.jpeg)
 
->d3sk2-mcq2
-same as mcq1
-falling waveform?
+>Similary the same file fn_prelayout is taken and run the tranisent analysis by plotting the output at the refrence 1.25 now we are calculating the falling waveform.Finding the value at where the intersection of refrence 1.25 cuts the point.
 
 ![](/IMAGES/DAY3/DAY-3%20LAB/d3sk2-mcq2.jpeg)
 
->d3sk3-mcq3
-cd 
-cd ngspice_labs
-magic -T min 2 tech
-open tkcon window
-source draw_fn.tcl
-how many nsubstratecontact and polysilicon strips ?
+>Here the **magic** tool is used for layout drawing.The command **magic -T min 2 tech** is used to open the layout window where we can draw the layout.After typing in the terminal two windows will open viz **tkcon** and **layout1**.open tkcon window and source the **draw_fn.tcl** then the layout will appear select the layout by right click on bottom and left click on top and press **shift+i**.by typing box we can find the area by selecting the layout.in the layout y nsubstratecontact and polysilicon strips are found
 
-
-![](/IMAGES/DAY3/DAY-3%20LAB/d3sk3-mcq3.jpeg)
 ![](/IMAGES/DAY3/DAY-3%20LAB/d3sk3-mcq3contd.jpeg)
+![](/IMAGES/DAY3/DAY-3%20LAB/d3sk3-mcq3.jpeg)
 
->d3sk3-mcq4
-area of design?
+
+
+
+>After sourcing the draw_fn.tcl.we will extract all files and also spice files by the commands **extract all and ext2spice**.From there we can obtain the **fn_postlayout.spice**,then this file is edited as it doent consists of vdd and gnd information.For the stimulus to obtain those were copied from the **fn_prelayout** and added to the fn_postlayout.Then the simulation is done and output charcterstics are plotted for transient analysis of te postlayout spice file.From there the rising and falling waveform are obatined.
 
 ![](/IMAGES/DAY3/DAY-3%20LAB/d3sk3-mcq4.jpeg)
-
->d3sk3-mcq5
-rising and falling waveform and intersection of horizontal blue line?
-
 ![](/IMAGES/DAY3/DAY-3%20LAB/d3sk3-mcq5.jpeg)
 ![](/IMAGES/DAY3/DAY-3%20LAB/d3sk3-mcq5contd.jpeg)
 ![](/IMAGES/DAY3/DAY-3%20LAB/d3sk3-mcq5contd2.jpeg)
