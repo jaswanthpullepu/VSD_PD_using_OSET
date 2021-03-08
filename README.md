@@ -233,92 +233,58 @@ The responsibilities of each individual day is listed below
  
 
 ### Lab:
->cd 
-git clone https://github.com/kunalg123/ngspice_labs
-cd ngspice_labs
-cat inv_tran.spice
-what is input rise slew and fall slew?
+>change the directory to ngspice_labs and open the inv_tran.spice file with the **cat** command and observe the input rise slew and fall slew in the netlist desription of line **vin in 0 0 pulse 0 2.5 0 10p 10p 1n 2n**
 
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk1-mcq6.JPG)
 
->d4sk1-mcq7
-2.ngspice inv_tran.spice
-what is output load and rise delay?
+>Run the ngspice with **inv_tran.spice** file and set the plot to tranisent analysis and plot the output characterstics.we need to find the rise delay as take rising waveform calculate the 20% and 80% of the wavefrom and make its difference.
 
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk1-mcq7.JPG)
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk1-mcq7contd.JPG)
 
->d4sk1-mcq8
-1.output load to 20fF in inv_tran.spice.what is rise delay?
+>Now change the output load capacitance from 10fF to 20fFand repeat the samme procedure and calculate the rise delay as above mentioned.Then there will be difference in transient analysis and change in waveform.
 
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk1-mcq8.JPG)
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk1-mcq8contd.JPG)
 
->d4sk2-mcq6
-/usr/local/share/qflow/tech/osu018/osu018_stdcells.lib
-what is value of slew_upper_hreshold_pct_fall?
-
->d4sk2-mcq7
-what is output_threshold_pct_rise?
+>Open the file from this following location **/usr/local/share/qflow/tech/osu018/osu018_stdcells.lib** the value of slew_upper_hreshold_pct_fall,rise and output_threshold_pct_rise,fall values are specified
 
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq6.JPG)
 
->d4sk2-mcq8
-what are the 2 variables of delay template 5x5?
+>The library file **osu018_stdcells.lib** consists of timing information,power information,delay information,technology information.There are different delay templates in which it mainly depends on two variables **total outpput net capacitance and input net transistion**
 
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq8.JPG)
 
->d4sk2-mcq9
-line num 2943 for which cell?invx1
+>The cell **invx1** infromation is present here its overall information in this particular file and many flavors of inverter filesa re available.
 
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq9.JPG)
 
->d4sk2-mcq10
-line number 2983?
-
+>The fall_transition,rise_transition and cell_rise,fall delay templates of different cells of different values are present.
+>
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq10.JPG)
 
->d4sk2-mcq11
-cd vsdflow/pul_picorv32
-leafpad picorv32.sdc
-create_clock -name clk -period 2.5 -waveform {0 1.25} [gets_ports clk]
-leafpad prelayout_sta.conf
-read_liberty /usr/local/share/qflow/tech/osu018/osu018_stdcells.lib
-read_verilog synthesis/picorv32.rtlnopwr.v
-link_design picorv32
-read_sdc picorv32.sdc
-report_checks
-sta prelayout_sta.conf
-slack value?
+>change the directory from vsdflow to pul_picorv32(my created_directory).now create a flie by **leafpad picorv32.sdc** and write the following sentence           **create_clock -name clk -period 2.5 -waveform {0 1.25} [gets_ports clk]**.save the file.now create another file by **leafpad prelayout_sta.conf** and write the following
+><oi>
+  <li>read_liberty /usr/local/share/qflow/tech/osu018/osu018_stdcells.lib</li>
+<li>read_verilog synthesis/picorv32.rtlnopwr.v</li>
+<li>link_design picorv32</li>
+<li>read_sdc picorv32.sdc</li>
+<li>report_checks</li>
+  </oi>
+  now perform sta on a prelayout_sta.conf and check the slack value
 
 
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq11conf.JPG)
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq11sdc.JPG)
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq11.JPG)
 
->d4sk2-mcq12
-repeat all the steps
-%
-report_checks -digits 4
-dat?
-
-
-
->d4sk2-mcq13
-drt?
+>Repeat all the steps from above specified and type **report_checks -digits 4** in sta terinal **%** and check the **data accquired time and data recieved time**
 
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq121.JPG)
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq12.JPG)
 
 
->d4sk4-mcq2
-%
-set_propogated_clock [all_clocks]
-report_checks
-slack after clock propogation?
-
-
-![](/IMAGES/DAY4/DAY-4%20LAB/d4sk4-mcq2.JPG)
+>After performing sta on prelayout_sta.conf and type the folowwing set_propogated_clock [all_clocks] command in the terminal **%** and after type **report_checks** in the terminal and check for the slack after clock propogation
 
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk4-mcq5.JPG)
 
@@ -346,8 +312,15 @@ slack after clock propogation?
 
 ### Lab:
 
+>change the directory to vsdflow to pul_picorv32 and use the command **qflow** and perform the steps **synthesis**,**placement** and then type command for roting **qflowroute picorv32** and a layout window will appear where the routing will perform and it will take some time.The routing depends on some algorithms by which diffferent metals are routed from different standard cells.After the routing perfrom sta by typing command **qflow sta picorv32** **qflow backanno picorv32**for the log file to open type **leafpad log/sta.log**.check the  pre layout frequency.
+
 
 ![](/IMAGES/DAY5/DAY-5%20LAB/d5sk2-mcq1contd.JPG)
 ![](/IMAGES/DAY5/DAY-5%20LAB/d5sk2-mcq1.JPG)
 
+>To check the post layout frequency type **leafpad log/post_sta.log**.post layout frequency can be obatained which has differnce from the prelayout frequency due to parsitics.
+
 ![](/IMAGES/DAY5/DAY-5%20LAB/d5sk2-mcq2.JPG)
+
+## ACKNOWLEDGEMENTS
+[KUNAL GHOSH](https://www.vlsisystemdesign.com/about-me/) co founder of VSD (VLSISYSTEMDESIGN) PVT LTED
