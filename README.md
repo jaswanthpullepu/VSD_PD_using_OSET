@@ -271,6 +271,8 @@ what are the 2 variables of delay template 5x5?
 >d4sk2-mcq9
 line num 2943 for which cell?invx1
 
+![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq9.JPG)
+
 >d4sk2-mcq10
 line number 2983?
 
@@ -289,9 +291,10 @@ report_checks
 sta prelayout_sta.conf
 slack value?
 
-![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq11.JPG)
+
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq11conf.JPG)
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq11sdc.JPG)
+![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq11.JPG)
 
 >d4sk2-mcq12
 repeat all the steps
@@ -299,13 +302,14 @@ repeat all the steps
 report_checks -digits 4
 dat?
 
+
+
 >d4sk2-mcq13
 drt?
 
-
+![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq121.JPG)
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq12.JPG)
 
-![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq121.JPG)
 
 >d4sk4-mcq2
 %
@@ -313,8 +317,6 @@ set_propogated_clock [all_clocks]
 report_checks
 slack after clock propogation?
 
-
-![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq9.JPG)
 
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk4-mcq2.JPG)
 
