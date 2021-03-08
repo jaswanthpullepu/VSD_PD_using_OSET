@@ -20,7 +20,7 @@ The open source tools that are involved in this workshop are as follows
 The refrence design used here is **RISC-V based Raven SoC (First silicon proven open source SoC)**
 
 ####  The total workshop is around 5 days.
-The responsibilities of each individual day is listed below
+The whole workshop is **cloudbased** and the os we used is **LINUX** and from system tools>lx terminal we performed all the commands there.The responsibilities of each individual day is listed below
 
 
 ## DAY1
