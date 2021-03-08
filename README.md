@@ -71,7 +71,8 @@ The responsibilities of each individual day is listed below
 
 ![](/IMAGES/DAY1/DAY-1%20LAB/mcq7/tkcon.jpeg)
 
->These below figures specifies the **percentage ratio of flipflop to total logic**.For that to be known we should go to terminal and change the directory to **vsdflow**.make a directory **my_picorv32**.make three directories ie., source,synthesis,layout.In which the actual verilog source file **picorv32.v** is copied into source folder.Qflow is opened on the gui platform and the synthesis is done and report of the synthesis is taken.
+>These below figures specifies the **percentage ratio of flipflop to total logic**.For that to be known we should go to terminal and change the directory to **vsdflow**.make a directory **my_picorv32**.make three directories ie., source,synthesis,layout.In which the actual verilog source file **picorv32.v** is copied into source folder.Qflow is opened on the gui platform and the synthesis is done and report of the synthesis is taken.Number of cells = 13197 and Number of flops = 1613,Then the Ratio of flops to total logic  = 1317/1613 = 12.22%.
+    
 
 ![](/IMAGES/DAY1/DAY-1%20LAB/mcq8/command.jpeg)
 
@@ -167,26 +168,75 @@ The responsibilities of each individual day is listed below
 
 ### Lab:
 
->
-
-![](/IMAGES/DAY3/DAY-3%20LAB/d3sk1-mcq10.jpeg)
-![](/IMAGES/DAY3/DAY-3%20LAB/d3sk1-mcq10contd.jpeg)
-
-![](/IMAGES/DAY3/DAY-3%20LAB/d3sk1-mcq11.png)
+>d3sk1-mccq5
+git clone https://github.com/kunalg123/ngspice_labs.git
+cd ngspice_labs
+cat inv.spice
+width of pmos?
 
 ![](/IMAGES/DAY3/DAY-3%20LAB/d3sk1-mcq5.jpeg)
 ![](/IMAGES/DAY3/DAY-3%20LAB/d3sk1-mcq5contd.jpeg)
 
+>d3sk1-mcq8
+ngspice inv.spice
+ngspice 1>
+run
+setplot dc1
+plot out in
+click on intersection of blue line?
+what is x0 value?
+
 ![](/IMAGES/DAY3/DAY-3%20LAB/d3sk1-mcq8.jpeg)
+
+>d3sk1-mcq10
+leafpad inv.spice
+change width of pmos to 0.75u
+where does the switching threshold lies in between?
+
+![](/IMAGES/DAY3/DAY-3%20LAB/d3sk1-mcq10contd.jpeg)
+![](/IMAGES/DAY3/DAY-3%20LAB/d3sk1-mcq10.jpeg)
+
+>d3sk1-mcq11
+leafpad inv_tran.spice
+run the simulation
+rise delay?
+
+![](/IMAGES/DAY3/DAY-3%20LAB/d3sk1-mcq11.png)
+
+>d3sk2-mcq1
+ngspice fn_prelayout.spice
+run
+setplot tran1
+plot out 1.25
+value of x0 at intersection horizontal blue line and rising waveform?
 
 ![](/IMAGES/DAY3/DAY-3%20LAB/d3sk2-mcq1.jpeg)
 
+>d3sk2-mcq2
+same as mcq1
+falling waveform?
+
 ![](/IMAGES/DAY3/DAY-3%20LAB/d3sk2-mcq2.jpeg)
+
+>d3sk3-mcq3
+cd 
+cd ngspice_labs
+magic -T min 2 tech
+open tkcon window
+source draw_fn.tcl
+how many nsubstratecontact and polysilicon strips ?
+
 
 ![](/IMAGES/DAY3/DAY-3%20LAB/d3sk3-mcq3.jpeg)
 ![](/IMAGES/DAY3/DAY-3%20LAB/d3sk3-mcq3contd.jpeg)
 
+>d3sk3-mcq4
+area of design?
+
 ![](/IMAGES/DAY3/DAY-3%20LAB/d3sk3-mcq4.jpeg)
+
+>d3sk3-mcq5
+rising and falling waveform and intersection of horizontal blue line?
 
 ![](/IMAGES/DAY3/DAY-3%20LAB/d3sk3-mcq5.jpeg)
 ![](/IMAGES/DAY3/DAY-3%20LAB/d3sk3-mcq5contd.jpeg)
