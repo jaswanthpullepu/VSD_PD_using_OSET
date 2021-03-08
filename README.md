@@ -233,27 +233,86 @@ The responsibilities of each individual day is listed below
  
 
 ### Lab:
+>cd 
+git clone https://github.com/kunalg123/ngspice_labs
+cd ngspice_labs
+cat inv_tran.spice
+what is input rise slew and fall slew?
+
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk1-mcq6.JPG)
+
+>d4sk1-mcq7
+2.ngspice inv_tran.spice
+what is output load and rise delay?
 
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk1-mcq7.JPG)
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk1-mcq7contd.JPG)
 
+>d4sk1-mcq8
+1.output load to 20fF in inv_tran.spice.what is rise delay?
+
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk1-mcq8.JPG)
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk1-mcq8contd.JPG)
 
+>d4sk2-mcq6
+/usr/local/share/qflow/tech/osu018/osu018_stdcells.lib
+what is value of slew_upper_hreshold_pct_fall?
+
+>d4sk2-mcq7
+what is output_threshold_pct_rise?
+
+![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq6.JPG)
+
+>d4sk2-mcq8
+what are the 2 variables of delay template 5x5?
+
+![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq8.JPG)
+
+>d4sk2-mcq9
+line num 2943 for which cell?invx1
+
+>d4sk2-mcq10
+line number 2983?
+
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq10.JPG)
+
+>d4sk2-mcq11
+cd vsdflow/pul_picorv32
+leafpad picorv32.sdc
+create_clock -name clk -period 2.5 -waveform {0 1.25} [gets_ports clk]
+leafpad prelayout_sta.conf
+read_liberty /usr/local/share/qflow/tech/osu018/osu018_stdcells.lib
+read_verilog synthesis/picorv32.rtlnopwr.v
+link_design picorv32
+read_sdc picorv32.sdc
+report_checks
+sta prelayout_sta.conf
+slack value?
 
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq11.JPG)
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq11conf.JPG)
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq11sdc.JPG)
 
+>d4sk2-mcq12
+repeat all the steps
+%
+report_checks -digits 4
+dat?
+
+>d4sk2-mcq13
+drt?
+
+
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq12.JPG)
 
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq121.JPG)
 
-![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq6.JPG)
+>d4sk4-mcq2
+%
+set_propogated_clock [all_clocks]
+report_checks
+slack after clock propogation?
 
-![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq8.JPG)
 
 ![](/IMAGES/DAY4/DAY-4%20LAB/d4sk2-mcq9.JPG)
 
